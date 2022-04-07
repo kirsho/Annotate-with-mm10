@@ -20,6 +20,7 @@
 # run the following commands
 # Load the RData
 load("Annot_Oli.RData")
+library(GenomicRanges)
 
 
 # load your bed file (a tab delimited file with a least 3 columns "chr" "start" "end")
